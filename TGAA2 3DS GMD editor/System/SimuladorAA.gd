@@ -14,6 +14,7 @@ extends Sprite2D
 	"UBICACION": $"../Simulacion3",
 	"COMUBICACION": $"../Simulacion4",
 	"EXAMINACION": $"../Simulacion5",
+	"DOCUMENTOS": $"../Simulacion6",
 }
 
 # Referencias a los labels correspondientes a cada vista
@@ -23,6 +24,7 @@ extends Sprite2D
 	"UBICACION": $"../Simulacion3/Label",
 	"COMUBICACION": $"../Simulacion4/Label",
 	"EXAMINACION": $"../Simulacion5/Label",
+	"DOCUMENTOS": $"../Simulacion6/Label",
 }
 
 var vista_actual = "DIALOGO"
@@ -49,6 +51,7 @@ const TAG_TRANSLATOR = {
 	"E017": "[color=#00FF00]", # c12 - green
 	"E018": "[color=#800080]", # c13 - purple
 	"E019": "[color=#800080]",  # c14 - purple
+	"COL AA0B0BFF": "[color=#FF2400]",  # c14 - purple
 	
 	# --- ICONOS ---
 	"ICON PAD_X": "[img=36]res://iconos/X.png[/img]",  #boton x
@@ -85,8 +88,10 @@ func _on_option_button_item_selected(index):
 		cambiar_vista("UBICACION")
 	elif index == 3:
 		cambiar_vista("COMUBICACION")
-	else:
+	elif index == 4:
 		cambiar_vista("EXAMINACION")
+	else:
+		cambiar_vista("DOCUMENTOS")
 
 func cambiar_vista(nueva_vista):
 	if vistas.has(nueva_vista):

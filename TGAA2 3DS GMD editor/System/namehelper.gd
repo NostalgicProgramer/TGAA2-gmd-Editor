@@ -8,6 +8,7 @@ const CONFIG_PERSONAJES = {
 	"E041 21 68": { "texto": "Modo oculto", "visible": false },
 	"E041 1 68": { "texto": "Modo oculto", "visible": false },
 	"E041 0 49": { "texto": "Modo oculto", "visible": false },
+	"E041 0 50": { "texto": "Modo oculto", "visible": false },
 	
 	#===========Desconocidos==============
 	
@@ -27,21 +28,36 @@ const CONFIG_PERSONAJES = {
 	"E041 24 71": { "texto": "¿?", "visible": true },
 	"E041 39 70": { "texto": "¿?", "visible": true },
 	"E041 0 71": { "texto": "¿?", "visible": true },
+	"E041 0 52": { "texto": "¿?", "visible": true },
+	"E041 41 52": { "texto": "¿?", "visible": true },
 	
 	#===========Nombres==============
 	
 	"E041 13 11": { "texto": "Mikotoba", "visible": true },
+	
 	"E041 2 1": { "texto": "Holmes", "visible": true },
 	"E041 19 1": { "texto": "Holmes", "visible": true },
+	
 	"E041 21 14": { "texto": "Kazuma", "visible": true },
+	
 	"E041 30 24": { "texto": "Alguacil", "visible": true },
-	"E041 22 15": { "texto": "Juez", "visible": true },
+	
+	"E041 24 15": { "texto": "Juez", "visible": true },
 	"E041 0 4": { "texto": "Juez", "visible": true },
+	
 	"E041 1 0": { "texto": "Ryunosuke", "visible": true },
 	"E041 0 0": { "texto": "Ryunosuke", "visible": true },
+	
 	"E041 14 13": { "texto": "Stronghart", "visible": true },
+	
 	"E041 3 2": { "texto": "Susato", "visible": true },
-	"E041 29 24": { "texto": "Alguacil", "visible": true },
+	"E041 8 2": { "texto": "Susato", "visible": true },
+	"E041 8 4": { "texto": "Ryutaro", "visible": true },
+	
+	"E041 41 65": { "texto": "Rei", "visible": true },
+	
+	"E041 31 22": { "texto": "Alguacil", "visible": true },
+	
 	"E041 23 16": { "texto": "Auchi", "visible": true },
 	"E041 25 19": { "texto": "Hosonaga", "visible": true },
 	"E041 27 23": { "texto": "Nosa", "visible": true },
@@ -50,30 +66,6 @@ const CONFIG_PERSONAJES = {
 	"E041 39 25": { "texto": "Marinero", "visible": true },
 	"E041 4 5": { "texto": "Iris", "visible": true },
 	
-	
-	
-	"E041 0 5": { "texto": "Woods", "visible": true },
-	"E041 4 2": { "texto": "Athena", "visible": true },
-	"E041 54 1": { "texto": "Apollo", "visible": true },
-	"E041 5 3": { "texto": "Payne", "visible": true },
-	"E041 0 3": { "texto": "Payne", "visible": true },
-	"E041 53 48": { "texto": "Widget", "visible": true },
-	"E041 18 6": { "texto": "Tonate", "visible": true },
-	"E041 18 7": { "texto": "Tonate", "visible": true },
-	"E041 10 17": { "texto": "Trucy", "visible": true },
-	"E041 22 24": { "texto": "Jinxie", "visible": true },
-	"E041 0 30": { "texto": "Aldeano", "visible": true },
-	"E041 0 27": { "texto": "Tenma Taro", "visible": true },
-	"E041 20 21": { "texto": "Tenma", "visible": true },
-	"E041 0 26": { "texto": "Luchador", "visible": true },
-	"E041 23 25": { "texto": "Filch", "visible": true },
-	"E041 13 19": { "texto": "Fulbright", "visible": true },
-	"E041 65 31": { "texto": "Televisor", "visible": true },
-	"E041 0 31": { "texto": "Televisor", "visible": true },
-	"E041 21 23": { "texto": "L'Belle", "visible": true },
-	"E041 0 28": { "texto": "Policía", "visible": true },
-	"E041 11 18": { "texto": "Blackquill", "visible": true },
-	"E041 25 32": { "texto": "Buckler", "visible": true },
 }
 
 @onready var edit_principal = $"../../TextEdit"
